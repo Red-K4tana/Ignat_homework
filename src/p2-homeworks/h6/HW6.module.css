@@ -1,0 +1,17 @@
+
+
+.blockSuperEditableSpan {
+    margin: 10px 20px;
+    height: 25px;
+}
+.buttonSetLocalStorage {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: center;
+    width: 270px;
+    height: 30px;
+}
+.buttonSetLocalStorage div {
+    width: 90px;
+}
+
