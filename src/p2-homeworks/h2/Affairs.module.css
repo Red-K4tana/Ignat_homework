@@ -1,0 +1,22 @@
+
+
+.main_affairs {
+    display: block;
+    width: 370px;
+    margin: 10px 10px;
+    background-color: #383b49;
+    box-shadow: 0 0 20px #2c364a;
+    border-radius: 4px;
+    padding-top: 5px;
+
+}
+
+.block_button {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px;
+
+}
+.block_button button {
+    margin-bottom: 10px;
+}

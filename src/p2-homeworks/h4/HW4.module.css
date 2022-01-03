@@ -1,0 +1,27 @@
+.blue {
+    border-bottom: 4px solid #74b1b7;
+    transition: .2s;
+}
+.blue:hover {
+    border-bottom: 2px solid #59878c;
+    transition: .2s;
+}
+.blue:focus {
+    border-bottom: 2px solid #59878c;
+    transition: .2s;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testSpanError {
+    color: blue;
+}
+
+.siteForError {
+    width: auto;
+    height: 20px;
+}

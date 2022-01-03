@@ -1,0 +1,26 @@
+
+.affair {
+    display: flex;
+    justify-content: space-between;
+    color: #e6e1d3;
+
+}
+.affair_button {
+    margin: 2px 10px 2px 3px;
+    background-image: url(https://img.icons8.com/stickers/20/000000/delete-sign.png);
+    width: 25px;
+    height: 25px;
+}
+.affairItem {
+    width: 100px;
+    margin: 3px 15px 3px 15px;
+}
+.high{
+    color: #e35858;
+}
+.middle {
+    color: #40a363;
+}
+.low {
+    color: #317a93;
+}

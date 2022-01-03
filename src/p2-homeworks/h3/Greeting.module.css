@@ -1,0 +1,55 @@
+.someClass {
+    margin: 15px;
+}
+
+.errorSpan {
+    display: block;
+}
+
+.error {margin: 10px 10px;
+    border: 1px solid red;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px #ff4343;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    transition-duration: .3s;
+    background-color: #ffafaf;
+}
+
+.inputOk {
+    outline: none;
+    margin: 10px 10px;
+    border: 0 solid;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px #ffffff;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    transition-duration: .3s;
+}
+
+.inputOk:hover {
+    box-shadow: 0 0 5px 1px #fff;
+    transition-duration: .3s;
+}
+
+.buttonAdd {
+    margin: 10px 10px;
+    border: 0 solid;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px #fff;
+    color: #294f58;
+    background-color: #bae2ec;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    transition-duration: .3s;
+}
+.buttonAdd:hover {
+    box-shadow: 0 0 5px 1px #fff;
+    background-color: #bae2ec;
+    transition-duration: .3s;
+}

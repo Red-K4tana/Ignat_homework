@@ -1,0 +1,59 @@
+.sort_control {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.sort_control div button {
+    width: 85px;
+}
+.sort_age {
+    display: flex;
+    margin-left: 10px;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.items {
+    display: flex;
+}
+.items ul {
+    list-style-type: none;
+}
+.input {
+    outline: none;
+    margin: 0 0 0 8px;
+    padding: 2px 6px;
+    border: 0 solid;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 1px #ffffff;
+    width: 36px;
+    height: 18px;
+    font-size: 14px;
+    transition: .3s box-shadow;
+}
+.input:hover {
+    box-shadow: 0 0 5px 1px #fff;
+    transition: .3s box-shadow;
+}
+.input:focus {
+    outline:none !important;
+    box-shadow: 0 0 5px 1px #fff;
+}
+.input_error {
+    outline: #7c2e2e;
+    background-color: #cf8e8e;
+    margin: 0 0 0 8px;
+    padding: 2px 6px;
+    border: 0 solid;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 1px #ff0000;
+    width: 36px;
+    height: 18px;
+    font-size: 14px;
+    transition: .3s box-shadow;
+}
